@@ -31,7 +31,8 @@ Diabetes is classified into:
 A recent global survey estimates that over 199 million women currently live with diabetes, a number projected to swell to 313 million by 2040. Diabetes is the ninth leading direct cause of death in women worldwide, accounting for 2.1 million deaths annually—many premature—and nearly half of women with diabetes remain unaware of their condition. Early, accurate classification between Type 1, Type 2, gestational and pre-diabetes can drive timely care and reduce complications from sight loss to cardiovascular diseases
 
 ## Problem Statement
-**Objective**: The goal of this project is to build and evaluate multiclass classification models to accurately identify four types of diabetes in women i.e. Type 1, Type 2, Gestational Diabetes, and Prediabetes. I evaluated and compared the performance of four supervised learning algorithms:
+**Objective**: 
+The goal of this project is to build and evaluate multiclass classification models to accurately identify four types of diabetes in women i.e. Type 1, Type 2, Gestational Diabetes, and Prediabetes. I evaluated and compared the performance of four supervised learning algorithms:
 
 1. Random Forest Classifier
 
@@ -121,7 +122,7 @@ There were no missing values in either the test or train datasets used in this p
 4. **K-Nearest Neighbors (KNN)** performs significantly worse, with the lowest validation (0.7469) and cross-validation (0.7553 ± 0.0087) accuracy, making it an impractical choice for strong predictive performance.
 
 ## Recommendations
-Based on the feature importance rankings from your **Random Forest model**, here are some key recommendations for **diabetes prevention and management among women**:
+Based on the feature importance rankings from the **Random Forest model**, here are some key recommendations for **diabetes prevention and management among women**:
 
 ### **High-Impact Health Interventions:**
 1. **Manage BMI (Most Important Factor)** – Maintain a healthy weight through balanced nutrition and regular exercise to reduce diabetes risk.
