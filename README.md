@@ -111,12 +111,31 @@ There were no missing values in either the test or train datasets used in this p
 | K-Nearest Neighbors           | 0.8351            | 0.7469              | 0.7553 ± 0.0087                   |
 | Quadratic Discriminant Analysis | 0.9458          | 0.9500              | 0.9434 ± 0.0050                   |
 
-### Example Evaluation Code
-```python
-from sklearn.model_selection import StratifiedKFold, cross_val_score
 
-skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
+1. **Random Forest** has the highest training accuracy (1.0000), suggesting it fits the training data exceptionally well. However, this could also indicate potential overfitting. Despite this, its validation accuracy (0.9854) and cross-validation accuracy (0.9818 ± 0.0018) remain strong and consistent, proving robust generalization.
 
-for name, model in models.items():
-    scores = cross_val_score(model, X_train, y_train, cv=skf, scoring='accuracy')
-    print(f"{name}: CV accuracy {scores.mean():.3f} ± {scores.std():.3f}")
+2. **Gradient Boosting** shows high performance across all metrics with slightly lower validation and cross-validation accuracy than Random Forest (0.9844 and 0.9814 ± 0.0022, respectively). It may provide slightly better generalization depending on your dataset complexity.
+
+3. **Quadratic Discriminant Analysis (QDA)** performs well but has slightly lower validation (0.9500) and cross-validation (0.9434 ± 0.0050) accuracy, making it a reasonable but less optimal choice.
+
+4. **K-Nearest Neighbors (KNN)** performs significantly worse, with the lowest validation (0.7469) and cross-validation (0.7553 ± 0.0087) accuracy, making it an impractical choice for strong predictive performance.
+
+## Recommendations
+Based on the feature importance rankings from your **Random Forest model**, here are some key recommendations for **diabetes prevention and management among women**:
+
+### **High-Impact Health Interventions:**
+1. **Manage BMI (Most Important Factor)** – Maintain a healthy weight through balanced nutrition and regular exercise to reduce diabetes risk.
+2. **Monitor Blood Glucose Levels** – Regular glucose screening helps detect early signs of diabetes or prediabetes.
+3. **Control Cholesterol and Blood Pressure** – Healthy diet choices and medical interventions can prevent cardiovascular complications linked to diabetes.
+4. **Track Waist Circumference** – A smaller waist circumference correlates with lower risk for insulin resistance and metabolic syndrome.
+5. **Regulate Insulin Levels** – Lifestyle changes and medical guidance can help optimize insulin regulation.
+
+### **Supportive Lifestyle Adjustments:**
+6. **Nutrition & Pregnancy Care** – Manage weight gain during pregnancy to lower gestational diabetes risk.
+7. **Increase Physical Activity** – Regular exercise helps control glucose and improves insulin sensitivity.
+8. **Reduce Alcohol & Smoking** – Limiting consumption lowers metabolic risk factors and improves overall health.
+
+### **Lower Impact But Still Relevant Considerations:**
+9. **Genetic and Family History Awareness** – While genetics play a role, lifestyle modifications can still significantly alter risk.
+10. **Socioeconomic and Ethnicity Factors** – Access to healthcare and education can improve diabetes prevention efforts.
+
