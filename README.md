@@ -2,31 +2,52 @@
 
 ## Introduction
 In medicine, diabetes mellitus is defined as a chronic metabolic disorder characterised by elevated levels of blood glucose (hyperglycaemia) resulting from defects in insulin secretion, insulin action, or both. The World Health Organization (WHO) and the American Diabetes Association (ADA) define diabetes based on the following diagnostic criteria (non-pregnant adults) [Source: WHO, ADA]:
+#### Risk Factors for Diabetes
+1. Type 1 Diabetes
+An autoimmune form of diabetes in which the pancreas produces little or no insulin.
 
-Diagnostic Criteria for Diabetes
-A diagnosis is made if any of the following are true (preferably confirmed on a second test):
+- Family history of type 1 diabetes (parent or sibling)
+- Presence of diabetes-susceptibility genes (e.g. HLA variants)
+- Younger age at onset (most diagnoses occur before age 14)
+- Possible environmental triggers under investigation (e.g. viral infections, latitude effects)
 
-1. Fasting Plasma Glucose (FPG):
-≥ 7.0 mmol/L (126 mg/dL) after no caloric intake for at least 8 hours
+2. Type 2 Diabetes
+Characterized by insulin resistance and eventual insulin deficiency. Risk factors separate into non-modifiable and modifiable:
 
-2. 2-hour Plasma Glucose (OGTT):
-≥ 11.1 mmol/L (200 mg/dL) during an oral glucose tolerance test (75g)
+2.1 Non-modifiable
+- Age over 45 years
+- Family history of type 2 diabetes (first-degree relative)
+- Certain ethnicities (African American, Hispanic, Native American, Asian American, Pacific Islander) 1
+- History of gestational diabetes or prediabetes
 
-3. HbA1c (Glycated Haemoglobin):
-≥ 6.5% (48 mmol/mol)
+2.2 Modifiable
+- Overweight and obesity (BMI ≥ 25 kg/m²)
+- Abdominal obesity (waist circumference > 89 cm in women)
+- Physical inactivity
+- Unhealthy diet (high in refined carbs, saturated fats)
+- Hypertension and dyslipidemia (high blood pressure or cholesterol)
 
-4. Random Plasma Glucose:
-≥ 11.1 mmol/L (200 mg/dL) with classic symptoms (polyuria, polydipsia, unexplained weight loss)
+3. Prediabetes
+A state of glucose dysregulation short of type 2 diabetes.
+- Body mass index ≥ 25 kg/m² (≥ 23 kg/m² in Asian women)
+- Waist circumference > 80 cm (increased central adiposity)
+- Family history of type 2 diabetes
+- History of gestational diabetes mellitus
+- Impaired glucose tolerance or fasting glucose (IFG 100–125 mg/dL; IGT 140–199 mg/dL)
+- Hypertension (≥ 130/85 mmHg) and dyslipidemia (triglycerides ≥ 150 mg/dL; HDL < 50 mg/dL)
+- Physical inactivity
+- Polycystic ovary syndrome (PCOS) and other endocrine disorders
 
-Diabetes is classified into:
-
-- Type 1 Diabetes: Autoimmune destruction of insulin-producing beta cells
-
-- Type 2 Diabetes: Insulin resistance combined with beta-cell dysfunction
-
-- Gestational Diabetes: Hyperglycaemia diagnosed during pregnancy
-
-- Other specific types: Includes monogenic diabetes, diseases of the exocrine pancreas, or drug-induced diabetes
+4. Gestational Diabetes
+Glucose intolerance first recognized during pregnancy.
+- Overweight or obesity (pre-pregnancy BMI ≥ 25 kg/m²)
+- Physical inactivity
+- History of gestational diabetes in prior pregnancy
+- Prediabetes or prior impaired glucose tolerance
+- Polycystic ovary syndrome (PCOS)
+- First-degree relative with diabetes
+- Prior delivery of macrosomic infant (birth weight > 4.1 kg)
+- High-risk ethnicity (Black, Hispanic, American Indian, Asian)
 
 A recent global survey estimates that over 199 million women currently live with diabetes, a number projected to swell to 313 million by 2040. Diabetes is the ninth leading direct cause of death in women worldwide, accounting for 2.1 million deaths annually—many premature—and nearly half of women with diabetes remain unaware of their condition. Early, accurate classification between Type 1, Type 2, gestational and pre-diabetes can drive timely care and reduce complications from sight loss to cardiovascular diseases
 
